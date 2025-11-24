@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  ai-worker:
+    build: .
+    ports:
+      - 8001:8001
+    volumes:
+      - ./outputs:/tmp/ai_outputs
+    # For GPU support, replace image with nvidia runtime and use 'runtime: nvidia' / deploy on GPU nodes.

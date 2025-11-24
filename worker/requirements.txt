@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+python-multipart
+aiofiles
+pydantic
+# torch, torchvision, other ML libs are intentionally omitted from this demo requirements file.
